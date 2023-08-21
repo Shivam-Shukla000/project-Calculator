@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+    height: 400px;
+    width: 350px;
+    padding: 6px;
+   background-color: lightblue;
+   border: 2px solid black;
+   
+}
+.input{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 6px;
+}
+button {
+    padding: 15px;
+    background-color: aquamarine;
+}
+#c {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.result {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 8px  0px;
+    font-size: 20px;
+    
+}
+.screen {
+    grid-column: 1/5;
+    padding: 20px;
+    background-color: aqua;
+    height: 18px;
+}
+.message {
+    grid-column: 1/5;
+    grid-row: 7/8;
+    padding: 20px;
+    font-size: 20px;
+    padding-left: px;
+}
