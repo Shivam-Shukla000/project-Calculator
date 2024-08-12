@@ -39,7 +39,7 @@ function operator(op, num1, num2) {
     if (op == "add") {return add(num1, num2)} 
     else if (op == "sub") {return sub(num1, num2)}
     else if (op == "multiply") {return multiply(num1, num2)}
-    else if (op == "devid") {return devid(num1, num2)}
+    else if (op == "divide") {return divide(num1, num2)}
     else {return "syntax error"}
 }
 function displayValue(e) {
