@@ -31,7 +31,7 @@ function sub(a, b) {
 function multiply(a, b) {
     return parseFloat(a) * parseFloat(b)
 }
-function devid(a, b) {
+function divide(a, b) {
     return parseFloat(a) / parseFloat(b)
 }
 
